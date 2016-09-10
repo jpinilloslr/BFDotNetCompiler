@@ -363,7 +363,7 @@ namespace BrainfuckCompiler
             }
             catch (Exception e)
             {
-                // ignored
+                Console.WriteLine("Error: " + e.Message);
             }
         }
 
